@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Search Engine</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <Header>
+<h1 class="flight">Flight Search Engine</h1>
+
+    <div class="nav">
+        <ul>
+            <li class="l1"><a href="#">Home</a></li>
+            <li class="l1"><a href="#">Services</a></li>
+            <li class="l1"><a href="#">About</a></li>
+            <li class="l1"><a href="#">ContactUS</a></li>
+        </ul>
+
+    </div>
+    </Header>
+    <main>
+        <form action="form.php"></form>
+        <h1 class="h1">Search Your Flight</h1>
+    <div class="container2">
+    <input type="button" value="One Way" class="oneway">
+    <input type="button" value="Return" class="return">
+    <div class="origincity">
+        
+        <input type="text" placeholder="Enter Origin City">
+        
+    </div>
+    <div class="destination">
+        <input type="text" placeholder="Enter Destination City">
+    </div>
+    
+    <div class="departuredate">
+        Departure Date <br>
+        <input type="date" name="Departure Date" id="Departure Date">>
+    </div>
+    
+    <div class="return">
+        Return Date <br>
+        <input type="date" name="Return Date" id="Return Date">>
+    </div>
+    
+    <div class="passenger">
+        Passenger <br>
+        <input type="number" name="passenger" id="passenger" min="1" max="10">
+    </div>
+    <div>
+        <input type="button" value="Search" class="search">
+    </div>
+    Refine Flight Search <br>
+    <input type="range" name="range" id="range">
+    </div>
+    <div class="container3">
+        <div>Your Flight Result</div>
+     <div class="one">Result1</div>
+     <div class="one">Result2</div>
+     <div class="one">Result3</div>
+ 
+    </div>
+  
+    </main>
+    <footer>
+<p class="footer"> Copyright &copy; www.flightsearchengine.com</p>
+    </footer>
+</body>
+</html>

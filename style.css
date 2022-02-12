@@ -1,0 +1,60 @@
+*{
+    margin: 0;padding: 0;
+    border-radius: 7px;
+}
+.flight{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: royalblue;
+    color: black;
+}
+.h1{
+    background-color: whitesmoke;
+}
+header {
+    text-align: right;
+    background-color: burlywood;
+}
+
+.l1{
+    display: inline-block;
+    height: 5vh;
+    margin: .2%;
+    
+}
+.container2{
+    position: relative;;
+    top: -217px;
+    height: 100vh;
+    display: inline-block;
+ background-image: url(airplane.jpg);
+ background-repeat: none;
+ background-size: cover;
+    width:50%;
+}
+.container3{
+    display: grid;
+    /* border: 2px solid red; */
+    background-color:#83ff7f54;;
+  
+    position: relative;
+    right: 0px;
+    height: 100vh;
+    display: inline-block;
+  /* background-image: url(image1.jpg);
+  background-repeat: none;
+  background-size: contain; */
+    bottom: 0px;
+    width:49%
+}
+.one{
+    border: 2px solid black;
+    height: 32vh;
+}
